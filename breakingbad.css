@@ -15,14 +15,14 @@ body {
 
 .header {
     text-align: center;
-    padding: 20px 0; /* Adicione um espaço maior acima e abaixo da logo */
+    padding: 20px 0; 
 }
 
 .logo {
     max-width: 100%;
     height: auto;
-    display: block; /* Isso evita espaços indesejados abaixo da imagem */
-    margin: 0 auto; /* Centralize a imagem horizontalmente */
+    display: block; 
+    margin: 0 auto; 
 }
 
 .nav-links {
@@ -44,7 +44,7 @@ body {
     color: white;
     padding: 10px;
     text-align: center;
-    margin: 20px 0; /* Adicione espaço acima e abaixo do contador */
+    margin: 20px 0;
 }
 
 .countdown {
@@ -65,9 +65,36 @@ body {
     margin: 0 auto;
 }
 
+
+
 .content {
     text-align: center;
     padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.content {
+    text-align: center;
+}
+
+.actor {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.actor img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.actor p {
+    text-align: center;
 }
 
 .link {
