@@ -101,9 +101,3 @@ body {
     text-decoration: none;
     color: darkgreen;
 }
-
-.centered-content {
-    text-align: center;
-    margin: 20px auto; 
-    display: block;
-}
