@@ -106,20 +106,6 @@ body {
     height: auto;
 }
 
-.countdown-container {
-    background-color: darkgreen;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
-.countdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: green; 
-}
-
 .spinoff-card {
     text-align: center;
     margin: 20px; 
@@ -127,4 +113,23 @@ body {
 .spinoff-image {
     display: block;
     margin: 0 auto; 
+}
+
+.countdown-container {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.countdown-container::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: darkgreen transparent transparent transparent;
 }
