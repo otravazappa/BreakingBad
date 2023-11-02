@@ -104,5 +104,6 @@ body {
 
 .centered-content {
     text-align: center;
-    margin-top: 20px; 
+    margin: 20px auto; 
+    display: block;
 }
