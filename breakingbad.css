@@ -101,3 +101,13 @@ body {
     text-decoration: none;
     color: darkgreen;
 }
+
+.spinoff-card {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.spinoff-image {
+    width: 80px; /* Tamanho das imagens dos spinoffs */
+    height: auto;
+}
