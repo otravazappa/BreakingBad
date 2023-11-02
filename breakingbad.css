@@ -1,9 +1,11 @@
+/* Reset de estilos para todos os elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos gerais para o corpo da página */
 body {
     background-color: black;
     color: darkgreen;
@@ -13,6 +15,7 @@ body {
     padding: 0;
 }
 
+/* Estilos para o cabeçalho */
 .header {
     text-align: center;
     padding: 20px 0;
@@ -25,6 +28,7 @@ body {
     margin: 0 auto;
 }
 
+/* Estilos para a barra de navegação */
 .nav-links {
     display: flex;
     justify-content: center;
@@ -39,6 +43,7 @@ body {
     color: darkgreen;
 }
 
+/* Estilos para a contagem regressiva */
 .countdown-container {
     background-color: darkgreen;
     color: white;
@@ -51,9 +56,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px; /* Ajuste o tamanho da fonte desejado */
+    font-size: 24px; /* Tamanho da fonte da contagem regressiva */
 }
 
+/* Estilos para o banner */
 .banner {
     text-align: center;
 }
@@ -65,9 +71,9 @@ body {
     margin: 0 auto;
 }
 
+/* Estilos para o conteúdo */
 .content {
     text-align: center;
-    padding: 20px;
 }
 
 .link {
@@ -75,57 +81,34 @@ body {
     color: darkgreen;
 }
 
-.actor {
+/* Estilos para atores e spin-offs */
+.actor, .spinoff-card {
     text-align: center;
     margin: 20px 0;
 }
 
-.actor img {
+.actor img, .spinoff-image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-.actor p {
+.actor p, .spinoff-card p {
     text-align: center;
 }
 
-.link {
-    text-decoration: none;
+/* Estilos para o rodapé */
+.footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer p {
     color: darkgreen;
 }
 
-.spinoff-image {
-    width: 80px;
-    height: auto;
-}
-
-.spinoff-card {
-    text-align: center;
-    margin: 20px;
-}
-
-.spinoff-image {
-    display: block;
-    margin: 0 auto;
-}
-
-.countdown-container {
-    background-color: darkgreen;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position: relative;
-}
-
-.countdown-container::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -15px;
-    border-width: 15px;
-    border-style: solid;
-    border-color: transparent transparent darkgreen transparent;
+.footer .link {
+    text-decoration: none;
+    color: darkgreen;
 }
