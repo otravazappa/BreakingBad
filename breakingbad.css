@@ -151,18 +151,3 @@ body {
     width: 80px;
     height: auto;
 }
-
-
-#prevButton, #nextButton {
-    background-color: darkgreen; 
-    color: white; 
-    padding: 10px 20px; 
-    border: none; 
-    cursor: pointer; 
-    margin: 5px; 
-}
-
-
-#prevButton:hover, #nextButton:hover {
-    background-color: green; 
-}
