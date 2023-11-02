@@ -115,14 +115,14 @@ body {
 
 .temporadas {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: space-around;
     padding: 20px;
 }
 
 .temporada-card {
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .temporada-card img {
@@ -130,4 +130,8 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.temporada-card p {
+    text-align: center;
 }
