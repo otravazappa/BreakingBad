@@ -101,13 +101,30 @@ body {
     text-decoration: none;
     color: darkgreen;
 }
+.spinoff-image {
+    width: 80px;
+    height: auto;
+}
+
+.countdown-container {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green; 
+}
 
 .spinoff-card {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px; 
 }
-
 .spinoff-image {
-    width: 80px; /* Tamanho das imagens dos spinoffs */
-    height: auto;
+    display: block;
+    margin: 0 auto; 
 }
