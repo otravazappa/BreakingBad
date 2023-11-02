@@ -112,3 +112,22 @@ body {
     text-decoration: none;
     color: darkgreen;
 }
+
+.temporadas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.temporada-card {
+    text-align: center;
+    margin: 20px;
+}
+
+.temporada-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
