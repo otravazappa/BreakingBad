@@ -1,4 +1,3 @@
-/* Estilos globais */
 * {
     margin: 0;
     padding: 0;
@@ -14,20 +13,18 @@ body {
     padding: 0;
 }
 
-/* Estilos comuns aos cabeçalhos */
 .header {
     text-align: center;
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 
 .logo {
     max-width: 100%;
     height: auto;
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
 }
 
-/* Estilos comuns às barras de navegação */
 .nav-links {
     display: flex;
     justify-content: center;
@@ -42,7 +39,6 @@ body {
     color: darkgreen;
 }
 
-/* Estilos comuns às contagens regressivas */
 .countdown-container {
     background-color: darkgreen;
     color: white;
@@ -55,10 +51,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 24px; /* Ajuste o tamanho da fonte desejado */
 }
 
-/* Estilos comuns aos banners */
 .banner {
     text-align: center;
 }
@@ -70,7 +65,6 @@ body {
     margin: 0 auto;
 }
 
-/* Estilos comuns ao conteúdo */
 .content {
     text-align: center;
     padding: 20px;
@@ -81,7 +75,6 @@ body {
     color: darkgreen;
 }
 
-/* Estilos comuns às seções de atores */
 .actor {
     text-align: center;
     margin: 20px 0;
@@ -98,7 +91,11 @@ body {
     text-align: center;
 }
 
-/* Estilos comuns às imagens dos spin-offs */
+.link {
+    text-decoration: none;
+    color: darkgreen;
+}
+
 .spinoff-image {
     width: 80px;
     height: auto;
@@ -106,15 +103,22 @@ body {
 
 .spinoff-card {
     text-align: center;
-    margin: 20px; 
+    margin: 20px;
 }
 
 .spinoff-image {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-/* Estilos específicos para a faixa verde na contagem regressiva */
+.countdown-container {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
 .countdown-container::before {
     content: "";
     position: absolute;
